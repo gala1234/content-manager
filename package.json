@@ -1,5 +1,5 @@
 {
-  "name": "ecommerce-backend",
+  "name": "the-fitt-club-cms",
   "private": true,
   "version": "0.1.0",
   "description": "A Strapi application",
@@ -15,13 +15,12 @@
     "pg": "^8.5.1",
     "pg-connection-string": "^2.4.0",
     "sqlite3": "^5.0.0",
-    "strapi": "3.4.6",
+    "strapi": "3.5.1",
     "strapi-admin": "3.4.6",
     "strapi-connector-bookshelf": "3.4.6",
     "strapi-plugin-content-manager": "3.4.6",
     "strapi-plugin-content-type-builder": "3.4.6",
     "strapi-plugin-email": "3.4.6",
-    "strapi-plugin-magic": "^0.9.0",
     "strapi-plugin-upload": "3.4.6",
     "strapi-plugin-users-permissions": "3.4.6",
     "strapi-provider-upload-aws-s3": "^3.3.3",
@@ -29,7 +28,7 @@
     "stripe": "^8.121.0"
   },
   "author": {
-    "name": "A Strapi developer"
+    "name": "Galadriel Calero"
   },
   "strapi": {
     "uuid": "8a042ae3-6282-4672-969c-64100545b0ed"
