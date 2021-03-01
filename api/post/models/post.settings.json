@@ -40,6 +40,12 @@
     },
     "author": {
       "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "textColor": {
+      "type": "string"
     }
   }
 }
