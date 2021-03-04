@@ -50,6 +50,16 @@
     "Shown": {
       "type": "boolean",
       "default": false
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "article",
+        "video",
+        "podcast"
+      ],
+      "required": true,
+      "unique": true
     }
   }
 }
