@@ -47,7 +47,7 @@
     "textColor": {
       "type": "string"
     },
-    "Shown": {
+    "shown": {
       "type": "boolean",
       "default": false
     },
