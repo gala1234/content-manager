@@ -59,7 +59,7 @@
         "podcast"
       ],
       "required": true,
-      "unique": true
+      "unique": false
     }
   }
 }
