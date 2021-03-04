@@ -46,6 +46,10 @@
     },
     "textColor": {
       "type": "string"
+    },
+    "Shown": {
+      "type": "boolean",
+      "default": false
     }
   }
 }
