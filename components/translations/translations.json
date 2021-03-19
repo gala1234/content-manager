@@ -1,9 +1,8 @@
 {
-  "collectionName": "components_translations_ens",
+  "collectionName": "components_translations_translations",
   "info": {
-    "name": "en",
-    "icon": "align-justify",
-    "description": ""
+    "name": "translations",
+    "icon": "align-center"
   },
   "options": {},
   "attributes": {

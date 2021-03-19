@@ -18,14 +18,14 @@
     "tags": {
       "type": "string"
     },
-    "translations": {
-      "type": "component",
-      "repeatable": false,
-      "component": "translations.en"
-    },
     "uniqId": {
       "type": "uid",
       "required": true
+    },
+    "translations": {
+      "type": "component",
+      "repeatable": false,
+      "component": "translations.translations"
     }
   }
 }

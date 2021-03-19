@@ -60,6 +60,21 @@
       ],
       "required": true,
       "unique": false
+    },
+    "title1": {
+      "type": "component",
+      "repeatable": false,
+      "component": "translations.translations"
+    },
+    "subtitle1": {
+      "type": "component",
+      "repeatable": false,
+      "component": "translations.translations"
+    },
+    "content1": {
+      "type": "component",
+      "repeatable": false,
+      "component": "translations.content"
     }
   }
 }
