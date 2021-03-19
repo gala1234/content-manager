@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "translations",
+  "info": {
+    "name": "translations",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "enabled": {
+      "type": "boolean",
+      "required": true
+    },
+    "tags": {
+      "type": "string"
+    },
+    "translations": {
+      "type": "component",
+      "repeatable": false,
+      "component": "translations.en"
+    },
+    "uniqId": {
+      "type": "uid",
+      "required": true
+    }
+  }
+}

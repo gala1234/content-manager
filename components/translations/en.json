@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_translations_ens",
+  "info": {
+    "name": "en",
+    "icon": "align-justify",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "en": {
+      "type": "string"
+    },
+    "es": {
+      "type": "string"
+    }
+  }
+}
