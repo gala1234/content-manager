@@ -12,7 +12,9 @@
   },
   "attributes": {
     "name": {
-      "type": "string"
+      "type": "string",
+      "required": true,
+      "unique": true
     },
     "slug": {
       "type": "uid",
@@ -26,7 +28,8 @@
     "title": {
       "type": "component",
       "repeatable": false,
-      "component": "translations.translations"
+      "component": "translations.translations",
+      "required": true
     }
   }
 }

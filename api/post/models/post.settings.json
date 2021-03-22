@@ -11,11 +11,6 @@
     "draftAndPublish": true
   },
   "attributes": {
-    "name": {
-      "type": "string",
-      "required": true,
-      "unique": true
-    },
     "thumbnail": {
       "collection": "file",
       "via": "related",
@@ -27,7 +22,8 @@
     },
     "slug": {
       "type": "uid",
-      "targetField": "name"
+      "targetField": "name",
+      "required": true
     },
     "categories": {
       "via": "posts",
@@ -57,17 +53,25 @@
     "title": {
       "type": "component",
       "repeatable": false,
-      "component": "translations.translations"
+      "component": "translations.translations",
+      "required": true
     },
     "subtitle": {
       "type": "component",
       "repeatable": false,
-      "component": "translations.translations"
+      "component": "translations.translations",
+      "required": true
     },
     "content": {
       "type": "component",
       "repeatable": false,
-      "component": "translations.content"
+      "component": "translations.content",
+      "required": true
+    },
+    "name": {
+      "type": "string",
+      "required": true,
+      "unique": true
     }
   }
 }

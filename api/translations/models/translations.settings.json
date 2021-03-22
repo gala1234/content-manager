@@ -20,12 +20,19 @@
     },
     "uniqId": {
       "type": "uid",
-      "required": true
+      "required": true,
+      "targetField": "name"
     },
     "translations": {
       "type": "component",
       "repeatable": false,
-      "component": "translations.translations"
+      "component": "translations.translations",
+      "required": true
+    },
+    "name": {
+      "type": "string",
+      "required": true,
+      "unique": true
     }
   }
 }
