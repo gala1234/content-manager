@@ -16,10 +16,6 @@
       "required": true,
       "unique": true
     },
-    "content": {
-      "type": "richtext",
-      "required": true
-    },
     "thumbnail": {
       "collection": "file",
       "via": "related",
@@ -34,14 +30,11 @@
       "targetField": "name"
     },
     "categories": {
-      "collection": "category",
       "via": "posts",
+      "collection": "category",
       "dominant": true
     },
     "author": {
-      "type": "string"
-    },
-    "subtitle": {
       "type": "string"
     },
     "textColor": {
@@ -61,17 +54,17 @@
       "required": true,
       "unique": false
     },
-    "title1": {
+    "title": {
       "type": "component",
       "repeatable": false,
       "component": "translations.translations"
     },
-    "subtitle1": {
+    "subtitle": {
       "type": "component",
       "repeatable": false,
       "component": "translations.translations"
     },
-    "content1": {
+    "content": {
       "type": "component",
       "repeatable": false,
       "component": "translations.content"
