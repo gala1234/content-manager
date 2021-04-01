@@ -2,15 +2,18 @@
   "collectionName": "components_translations_translations",
   "info": {
     "name": "translations",
-    "icon": "align-center"
+    "icon": "align-center",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "en": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "es": {
-      "type": "string"
+      "type": "string",
+      "required": true
     }
   }
 }

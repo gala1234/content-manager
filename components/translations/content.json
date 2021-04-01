@@ -2,15 +2,18 @@
   "collectionName": "components_translations_contents",
   "info": {
     "name": "content",
-    "icon": "align-justify"
+    "icon": "align-justify",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "en": {
-      "type": "richtext"
+      "type": "richtext",
+      "required": true
     },
     "es": {
-      "type": "richtext"
+      "type": "richtext",
+      "required": true
     }
   }
 }
