@@ -26,8 +26,8 @@
       "required": true
     },
     "categories": {
-      "via": "posts",
       "collection": "category",
+      "via": "posts",
       "dominant": true
     },
     "author": {
@@ -72,6 +72,11 @@
       "type": "string",
       "required": true,
       "unique": true
+    },
+    "references": {
+      "type": "component",
+      "repeatable": false,
+      "component": "translations.content"
     }
   }
 }
