@@ -90,7 +90,7 @@
       "type": "string",
       "required": true
     },
-    "subtitle2": {
+    "subtitle": {
       "pluginOptions": {
         "i18n": {
           "localized": true
