@@ -24,17 +24,6 @@
         }
       }
     },
-    "translations": {
-      "type": "component",
-      "repeatable": false,
-      "component": "translations.translations",
-      "required": false,
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      }
-    },
     "name": {
       "type": "string",
       "required": false,
