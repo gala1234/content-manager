@@ -71,39 +71,6 @@
         }
       }
     },
-    "title": {
-      "type": "component",
-      "repeatable": false,
-      "component": "translations.translations",
-      "required": true,
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      }
-    },
-    "subtitle": {
-      "type": "component",
-      "repeatable": false,
-      "component": "translations.translations",
-      "required": true,
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      }
-    },
-    "content": {
-      "type": "component",
-      "repeatable": false,
-      "component": "translations.content",
-      "required": true,
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      }
-    },
     "name": {
       "type": "string",
       "required": true,
@@ -114,17 +81,7 @@
         }
       }
     },
-    "references": {
-      "type": "component",
-      "repeatable": false,
-      "component": "translations.content",
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      }
-    },
-    "title2": {
+    "title": {
       "pluginOptions": {
         "i18n": {
           "localized": true
@@ -142,7 +99,7 @@
       "type": "string",
       "required": true
     },
-    "content2": {
+    "content": {
       "pluginOptions": {
         "i18n": {
           "localized": true
@@ -151,7 +108,7 @@
       "type": "richtext",
       "required": true
     },
-    "references2": {
+    "references": {
       "pluginOptions": {
         "i18n": {
           "localized": true

@@ -34,17 +34,6 @@
     "posts": {
       "via": "categories",
       "collection": "post"
-    },
-    "title": {
-      "type": "component",
-      "repeatable": false,
-      "component": "translations.translations",
-      "required": true,
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      }
     }
   }
 }
