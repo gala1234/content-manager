@@ -20,7 +20,7 @@
       "type": "string",
       "pluginOptions": {
         "i18n": {
-          "localized": false
+          "localized": true
         }
       }
     },
@@ -31,13 +31,13 @@
       "required": false,
       "pluginOptions": {
         "i18n": {
-          "localized": false
+          "localized": true
         }
       }
     },
     "name": {
       "type": "string",
-      "required": true,
+      "required": false,
       "unique": true,
       "pluginOptions": {
         "i18n": {
@@ -45,21 +45,8 @@
         }
       }
     },
-    "content": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "type": "richtext",
-      "required": false
-    },
     "uniqId": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
+      "pluginOptions": {},
       "type": "uid",
       "targetField": "name",
       "required": true
