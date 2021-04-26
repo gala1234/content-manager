@@ -16,28 +16,6 @@
     }
   },
   "attributes": {
-    "title": {
-      "type": "component",
-      "repeatable": false,
-      "component": "translations.translations",
-      "required": true,
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      }
-    },
-    "content": {
-      "type": "component",
-      "repeatable": false,
-      "component": "translations.content",
-      "required": true,
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      }
-    },
     "name": {
       "type": "string",
       "required": true,
@@ -53,7 +31,7 @@
       "targetField": "name",
       "required": true
     },
-    "title2": {
+    "title": {
       "pluginOptions": {
         "i18n": {
           "localized": true
@@ -62,7 +40,7 @@
       "type": "string",
       "required": true
     },
-    "content2": {
+    "content": {
       "pluginOptions": {
         "i18n": {
           "localized": true
