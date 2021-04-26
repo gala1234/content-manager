@@ -59,7 +59,8 @@
           "localized": true
         }
       },
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "content2": {
       "pluginOptions": {
@@ -67,7 +68,8 @@
           "localized": true
         }
       },
-      "type": "richtext"
+      "type": "richtext",
+      "required": true
     }
   }
 }
