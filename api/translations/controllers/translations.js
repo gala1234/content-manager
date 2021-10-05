@@ -5,4 +5,15 @@
  * to customize this controller
  */
 
-module.exports = {};
+ module.exports = {
+    // GET /hello
+    async find(ctx) {
+        let entities;
+        if(ctx.query._q) {
+            entities = await strapi.services.translations.search(ctx.query, []);
+        } else {
+            entities = await strapi.services.translations.find(ctx.query, []);
+        }
+      return entities.map((entity) => sanitizeEntity(entity, { model: strapi.models.translations }))
+    },
+  };
