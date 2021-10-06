@@ -7,16 +7,15 @@ const { sanitizeEntity } = require('strapi-utils');
  * to customize this controller
  */
 
- module.exports = {
-    // GET /hello
-    async find(ctx) {
-        let entities;
-        if(ctx.query._q) {
-            entities = await strapi.services.category.search(ctx.query, []);
-        } else {
-            entities = await strapi.services.category.find(ctx.query, []);
-        }
-      return entities.map((entity) => sanitizeEntity(entity, { model: strapi.models.category }))
-    },
-  };
-  
+module.exports = {
+  async find(ctx) {
+    let entities;
+    if (ctx.query._q) {
+      entities = await strapi.services.category.search(ctx.query, []);
+    } else {
+      entities = await strapi.services.category.find(ctx.query, []);
+    }
+    return entities.map((entity) => sanitizeEntity(entity, { model: strapi.models.category }))
+  },
+};
+

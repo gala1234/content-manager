@@ -1,10 +1,10 @@
 module.exports = {
-    load: {
-      before: ['gzip'],
+  load: {
+    before: ['gzip'],
+  },
+  settings: {
+    gzip: {
+      enabled: true,
     },
-    settings: {
-        gzip: {
-        enabled: true,
-      },
-    },
-  };
+  },
+};
