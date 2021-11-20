@@ -17,13 +17,6 @@
       "required": true,
       "pluginOptions": {}
     },
-    "withoutHipo": {
-      "type": "component",
-      "repeatable": true,
-      "component": "order.video",
-      "required": false,
-      "pluginOptions": {}
-    },
     "week": {
       "required": true,
       "type": "integer",
@@ -34,16 +27,15 @@
       "required": true,
       "pluginOptions": {}
     },
-    "withHipo": {
+    "program": {
+      "via": "program_core_strength_days",
+      "model": "programs"
+    },
+    "videosCollectionVersion": {
       "type": "component",
       "repeatable": true,
-      "component": "order.video",
-      "required": true,
-      "pluginOptions": {}
-    },
-    "program": {
-      "model": "programs",
-      "via": "program_core_strength_days"
+      "component": "video-program-version.versions",
+      "required": true
     }
   }
 }

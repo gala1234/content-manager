@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_program_version_video",
+  "info": {
+    "name": "VideoProgramVersion",
+    "icon": "arrow-alt-circle-right",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "program_version": {
+      "model": "program-version"
+    },
+    "videos": {
+      "type": "component",
+      "repeatable": false,
+      "component": "order.video",
+      "required": true
+    }
+  }
+}

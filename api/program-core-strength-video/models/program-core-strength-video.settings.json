@@ -72,8 +72,8 @@
       "via": "program_core_strength_videos"
     },
     "program": {
-      "model": "programs",
-      "via": "program_core_strength_videos"
+      "via": "program_core_strength_videos",
+      "model": "programs"
     }
   }
 }
