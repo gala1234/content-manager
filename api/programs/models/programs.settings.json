@@ -10,37 +10,21 @@
     "timestamps": true,
     "draftAndPublish": true
   },
-  "pluginOptions": {
-    "i18n": {
-      "localized": true
-    }
-  },
+  "pluginOptions": {},
   "attributes": {
     "name": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
+      "pluginOptions": {},
       "type": "string",
       "required": true,
       "unique": true
     },
     "totalDays": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
+      "pluginOptions": {},
       "type": "integer",
       "required": true
     },
     "slug": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
+      "pluginOptions": {},
       "type": "uid",
       "targetField": "name",
       "required": true
@@ -48,10 +32,6 @@
     "program_core_strength_days": {
       "via": "program",
       "collection": "program-core-strength-day"
-    },
-    "program_core_strength_videos": {
-      "via": "program",
-      "collection": "program-core-strength-video"
     },
     "program_versions": {
       "collection": "program-version"

@@ -70,10 +70,6 @@
     "program_core_strength_cat": {
       "model": "programs-category",
       "via": "program_core_strength_videos"
-    },
-    "program": {
-      "via": "program_core_strength_videos",
-      "model": "programs"
     }
   }
 }
