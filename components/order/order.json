@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_order_orders",
+  "info": {
+    "name": "order",
+    "icon": "arrow-up"
+  },
+  "options": {},
+  "attributes": {
+    "program_core_strength_videos": {
+      "collection": "program-core-strength-video"
+    }
+  }
+}

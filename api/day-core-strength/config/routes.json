@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/program-core-strength-days",
+      "handler": "program-core-strength-day.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/program-core-strength-days/count",
+      "handler": "program-core-strength-day.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/program-core-strength-days/:id",
+      "handler": "program-core-strength-day.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/program-core-strength-days",
+      "handler": "program-core-strength-day.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/program-core-strength-days/:id",
+      "handler": "program-core-strength-day.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/program-core-strength-days/:id",
+      "handler": "program-core-strength-day.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

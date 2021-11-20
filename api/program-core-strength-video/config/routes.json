@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/program-core-strength-videos",
+      "handler": "program-core-strength-video.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/program-core-strength-videos/count",
+      "handler": "program-core-strength-video.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/program-core-strength-videos/:id",
+      "handler": "program-core-strength-video.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/program-core-strength-videos",
+      "handler": "program-core-strength-video.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/program-core-strength-videos/:id",
+      "handler": "program-core-strength-video.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/program-core-strength-videos/:id",
+      "handler": "program-core-strength-video.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
