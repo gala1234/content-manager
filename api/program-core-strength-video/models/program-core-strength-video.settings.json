@@ -49,7 +49,7 @@
       }
     },
     "video": {
-      "collection": "file",
+      "model": "file",
       "via": "related",
       "allowedTypes": [
         "videos"

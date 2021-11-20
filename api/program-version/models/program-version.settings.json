@@ -18,7 +18,8 @@
     },
     "slug": {
       "type": "uid",
-      "targetField": "versionType"
+      "targetField": "versionType",
+      "required": true
     }
   }
 }

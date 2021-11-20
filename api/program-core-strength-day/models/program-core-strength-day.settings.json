@@ -34,7 +34,7 @@
     "videosCollectionVersion": {
       "type": "component",
       "repeatable": true,
-      "component": "video-program-version.versions",
+      "component": "videos-program-version.versions",
       "required": true
     }
   }
