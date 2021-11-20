@@ -68,11 +68,12 @@
       "required": true
     },
     "program_core_strength_cat": {
-      "model": "programs-category"
+      "model": "programs-category",
+      "via": "program_core_strength_videos"
     },
     "program": {
       "model": "programs",
-      "via": "program_core_strength_video"
+      "via": "program_core_strength_videos"
     }
   }
 }

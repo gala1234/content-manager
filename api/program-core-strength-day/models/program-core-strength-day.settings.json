@@ -10,64 +10,40 @@
     "timestamps": true,
     "draftAndPublish": true
   },
-  "pluginOptions": {
-    "i18n": {
-      "localized": true
-    }
-  },
+  "pluginOptions": {},
   "attributes": {
     "absoluteDay": {
       "type": "integer",
       "required": true,
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      }
+      "pluginOptions": {}
     },
-    "videosNoHipoVersion": {
+    "withoutHipo": {
       "type": "component",
       "repeatable": true,
       "component": "order.video",
       "required": false,
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      }
+      "pluginOptions": {}
     },
     "week": {
       "required": true,
       "type": "integer",
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      }
+      "pluginOptions": {}
     },
     "weekDay": {
       "type": "integer",
       "required": true,
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      }
+      "pluginOptions": {}
     },
-    "videosHipoVersion": {
+    "withHipo": {
       "type": "component",
       "repeatable": true,
       "component": "order.video",
       "required": true,
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      }
+      "pluginOptions": {}
     },
     "program": {
       "model": "programs",
-      "via": "program_core_strength_day"
+      "via": "program_core_strength_days"
     }
   }
 }

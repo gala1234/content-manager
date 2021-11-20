@@ -29,6 +29,10 @@
       "type": "uid",
       "targetField": "name",
       "required": true
+    },
+    "program_core_strength_videos": {
+      "via": "program_core_strength_cat",
+      "collection": "program-core-strength-video"
     }
   }
 }

@@ -54,13 +54,13 @@
       "targetField": "name",
       "required": true
     },
-    "program_core_strength_video": {
+    "program_core_strength_days": {
       "via": "program",
-      "model": "program-core-strength-video"
+      "collection": "program-core-strength-day"
     },
-    "program_core_strength_day": {
+    "program_core_strength_videos": {
       "via": "program",
-      "model": "program-core-strength-day"
+      "collection": "program-core-strength-video"
     }
   }
 }
