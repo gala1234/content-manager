@@ -70,6 +70,30 @@
     "program_core_strength_cat": {
       "model": "programs-category",
       "via": "program_core_strength_videos"
+    },
+    "type": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      },
+      "type": "enumeration",
+      "enum": [
+        "seconds",
+        "minutes",
+        "reps",
+        "res",
+        "amrap",
+        "amap"
+      ]
+    },
+    "value": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      },
+      "type": "integer"
     }
   }
 }
