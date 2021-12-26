@@ -35,6 +35,14 @@
     },
     "program_versions": {
       "collection": "program-version"
+    },
+    "maxDays": {
+      "type": "integer",
+      "required": true
+    },
+    "key": {
+      "type": "string",
+      "required": true
     }
   }
 }
