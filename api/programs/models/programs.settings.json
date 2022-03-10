@@ -54,7 +54,7 @@
       "required": true,
       "pluginOptions": {}
     },
-    "stage": {
+    "stages": {
       "type": "component",
       "repeatable": true,
       "component": "videos.stage",

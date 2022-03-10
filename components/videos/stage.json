@@ -7,7 +7,7 @@
   },
   "options": {},
   "attributes": {
-    "videoStage": {
+    "videoStages": {
       "model": "file",
       "via": "related",
       "allowedTypes": [
